@@ -20,4 +20,7 @@ ADD server.js /usr/local/graphql/server.js
 ADD graphiql.sh /usr/local/graphql/graphiql.sh
 RUN chmod +x /usr/local/graphql/graphiql.sh
 
+ADD install-graphql.sh /usr/local/bin/install-graphql.sh
+RUN chmod +x /usr/local/bin/install-graphql.sh
+
 EXPOSE 4000
